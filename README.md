@@ -1,8 +1,4 @@
-The official pytorch implementation of ***CEKD: Cross-modal Edge-privileged Knowledge Distillation for Semantic Scene Understanding using Only Thermal Images***.
-
-The codes and dataset will be released when the paper is published.
-
-# MAFNet-PyTorch
+# CEKD-PyTorch
 The official pytorch implementation of **CEKD: Cross-modal Edge-privileged Knowledge Distillation for Semantic Scene Understanding using Only Thermal Images**. ([RA-L](https://yuxiangsun.github.io/pub/)). 
 
 We test our code in Python 3.7, CUDA 11.1, cuDNN 8, and PyTorch 1.7.1. We provide `Dockerfile` to build the docker image we used. You can modify the `Dockerfile` as you want.  
@@ -18,7 +14,7 @@ The accompanied video can be found at: https://www.youtube.com/watch?v=hQM5IW5N9
 </div>
 
 # Introduction
-MAFNet is a multi-modal fusion network for semantic segmentation of road potholes.
+CEKD is a knowledge distillation framework, which includes a teacher netwrok CENet and a student network EKNet. CENet is a multi-modal fusion network for semantic segmentation of urban scenes. EKNet is a thermal-only network for semantic segmentation of urban scenes.
 # Dataset
 The original dataset can be downloaded from the AARTFnet project [page](https://sites.google.com/view/pothole-600). You can use the augmentation method proposed in this paper to get the training dataset or you can download our processed data from [here](https://labsun-me.polyu.edu.hk/zfeng/MAFNet/).
 # Pretrained weights
@@ -51,21 +47,21 @@ $ unzip -d .. weights.zip
 $ docker run -it --shm-size 8G -p 1234:6006 --name docker_container_cekd --gpus all -v ~/CEKD:/workspace docker_image_cekd
 $ (currently, you should be in the docker)
 $ cd /workspace
-$ (To reproduce the results of only-thermal student network EKNet)
+$ (To reproduce the results of thermal student network EKNet)
 $ python3 run_demo_student.py   
 $ (To reproduce the results of RGB-thermal teacher network CENet)
 $ python3 run_demo_teacher.py   
 ```
 The results will be saved in the `./runs` folder.
-* To train CEKD
+* To train CEKD (teacher network CENet and student network EKNet)
 ```
 $ (You should be in the CEKD folder)
 $ docker run -it --shm-size 8G -p 1234:6006 --name docker_container_cekd --gpus all -v ~/CEKD:/workspace docker_image_cekd
 $ (currently, you should be in the docker)
 $ cd /workspace
-$ (To train our only-thermal student network EKNet)
-$ python3 trainTeacher.py
 $ (To train our RGB-thermal teacher network CENet)
+$ python3 trainTeacher.py
+$ (To train our thermal student network EKNet)
 $ python3 trainStudent.py
 ```
 * To see the training process
