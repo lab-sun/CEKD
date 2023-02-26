@@ -1,5 +1,5 @@
 # CEKD-PyTorch
-The official pytorch implementation of **CEKD: Cross-modal Edge-privileged Knowledge Distillation for Semantic Scene Understanding using Only Thermal Images**. ([RA-L](https://yuxiangsun.github.io/pub/)). 
+The official pytorch implementation of **CEKD: Cross-modal Edge-privileged Knowledge Distillation for Semantic Scene Understanding using Only Thermal Images**. ([RA-L](https://ieeexplore.ieee.org/document/10049523)). 
 
 We test our code in Python 3.7, CUDA 11.1, cuDNN 8, and PyTorch 1.7.1. We provide `Dockerfile` to build the docker image we used. You can modify the `Dockerfile` as you want.  
 <div align=center>
