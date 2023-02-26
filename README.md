@@ -35,7 +35,7 @@ $ (You should be in the CEKD folder)
 $ mkdir ./dataset
 $ cd ./dataset
 $ (download our preprocessed dataset.zip in this folder)
-$ unzip -d .. dataset.zip
+$ unzip -d . dataset.zip
 ```
 * To reproduce our results, you need to download our pretrained weights.
 ```
@@ -43,7 +43,7 @@ $ (You should be in the CEKD folder)
 $ mkdir ./weights_backup
 $ cd ./weights_backup
 $ (download our preprocessed weights.zip in this folder)
-$ unzip -d .. weights.zip
+$ unzip -d . weights.zip
 $ docker run -it --shm-size 8G -p 1234:6006 --name docker_container_cekd --gpus all -v ~/CEKD:/workspace docker_image_cekd
 $ (currently, you should be in the docker)
 $ cd /workspace
