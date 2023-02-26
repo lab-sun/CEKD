@@ -10,7 +10,7 @@ We test our code in Python 3.7, CUDA 11.1, cuDNN 8, and PyTorch 1.7.1. We provid
 
 The accompanied video can be found at: https://www.youtube.com/watch?v=hQM5IW5N91M
 <div align=center>
-<a href="https://www.youtube.com/watch?v=hQM5IW5N91M"><img src="doc/results.jpg" width="70%" height="70%" />
+<a href="https://www.youtube.com/watch?v=dd3zEopVEhA"><img src="docs/results.jpg" width="70%" height="70%" />
 </div>
 
 # Introduction
