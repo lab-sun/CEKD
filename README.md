@@ -3,7 +3,7 @@ The official pytorch implementation of **CEKD: Cross-modal Edge-privileged Knowl
 
 We test our code in Python 3.7, CUDA 11.1, cuDNN 8, and PyTorch 1.7.1. We provide `Dockerfile` to build the docker image we used. You can modify the `Dockerfile` as you want.  
 <div align=center>
-<img src="doc/Overall.png" width="900px"/>
+<img src="docs/overall.jpg" width="900px"/>
 </div>
 
 # Demo
