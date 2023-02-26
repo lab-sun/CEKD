@@ -78,11 +78,16 @@ Note: Please change the smoothing factor in the Tensorboard webpage to `0.999`, 
 # Citation
 If you use CEKD in your academic work, please cite:
 ```
-
+@ARTICLE{10049523,
+  author={Feng, Zhen and Guo, Yanning and Sun, Yuxiang},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={CEKD: Cross-modal Edge-privileged Knowledge Distillation for Semantic Scene Understanding using Only Thermal Images}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-8},
+  doi={10.1109/LRA.2023.3247175}}
 ```
-
-# Demo
-<img src="doc/results.jpg" width="700px"/>
 
 # Acknowledgement
 Some of the codes are borrowed from [RTFNet](https://github.com/yuxiangsun/RTFNet), [AARTFNet](https://github.com/hlwang1124/AAFramework) and [TransUNet](https://github.com/Beckschen/TransUNet)
