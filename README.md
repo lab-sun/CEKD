@@ -78,14 +78,14 @@ Note: Please change the smoothing factor in the Tensorboard webpage to `0.999`, 
 # Citation
 If you use CEKD in your academic work, please cite:
 ```
-@ARTICLE{10049523,
-  author={Feng, Zhen and Guo, Yanning and Sun, Yuxiang},
+@ARTICLE{feng2023cekd,
+  author={Zhen Feng and Yanning Guo and Yuxiang Sun},
   journal={IEEE Robotics and Automation Letters}, 
-  title={CEKD: Cross-modal Edge-privileged Knowledge Distillation for Semantic Scene Understanding using Only Thermal Images}, 
+  title={CEKD: Cross-Modal Edge-Privileged Knowledge Distillation for Semantic Scene Understanding Using Only Thermal Images}, 
   year={2023},
-  volume={},
-  number={},
-  pages={1-8},
+  volume={8},
+  number={4},
+  pages={2205-2212},
   doi={10.1109/LRA.2023.3247175}}
 ```
 
