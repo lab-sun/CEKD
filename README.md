@@ -18,7 +18,7 @@ CEKD is a knowledge distillation framework, which includes a teacher netwrok CEN
 # Dataset
 The original dataset can be downloaded from the MFNet project [page](https://www.mi.t.u-tokyo.ac.jp/static/projects/mil_multispectral/). You can use the [ELG](https://github.com/Lavender105/DFF/tree/master/lib/matlab) module to generate the edge map for training. You can also download our processed data from [here](https://labsun-me.polyu.edu.hk/zfeng/MAFNet/).
 # Pretrained weights
-The pretrained weight of CEKD can be downloaded from [here](https://labsun-me.polyu.edu.hk/zfeng/MAFNet/).
+The pretrained weight of CEKD can be downloaded from [here](https://labsun-me.polyu.edu.hk/zfeng/CEKD/).
 # Usage
 * Clone this repo
 ```
