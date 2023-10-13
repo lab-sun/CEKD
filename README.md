@@ -16,11 +16,11 @@ The accompanied video can be found at:
 # Introduction
 CEKD is a knowledge distillation framework, which includes a teacher netwrok CENet and a student network EKNet. CENet is a multi-modal fusion network for semantic segmentation of urban scenes. EKNet is a thermal-only network for semantic segmentation of urban scenes.
 # Dataset
-The original dataset can be downloaded from the MFNet project [page](https://www.mi.t.u-tokyo.ac.jp/static/projects/mil_multispectral/). You can use the [ELG](https://github.com/Lavender105/DFF/tree/master/lib/matlab) module to generate the edge map for training. You can also download our processed data from [here](https://labsun-me.polyu.edu.hk/zfeng/CEKD/).
+The original dataset can be downloaded from the MFNet project [page](https://www.mi.t.u-tokyo.ac.jp/static/projects/mil_multispectral/). You can use the [ELG](https://github.com/Lavender105/DFF/tree/master/lib/matlab) module to generate the edge map for training. You can also download our processed data from [here](https://pan.baidu.com/s/1LAzmgIHOdN8Ok8fmdY714A) with password **cekd**. 
 # Pretrained weights
-The pretrained weight of CEKD can be downloaded from [here](https://labsun-me.polyu.edu.hk/zfeng/CEKD/).
+The pretrained weight of CEKD can be downloaded from [here](https://pan.baidu.com/s/1LAzmgIHOdN8Ok8fmdY714A) with password **cekd**.
 # Usage
-* Clone this repo
+* Clone this repo 
 ```
 $ git clone https://github.com/lab-sun/CEKD.git
 ```
