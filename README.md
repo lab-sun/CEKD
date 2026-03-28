@@ -91,7 +91,3 @@ If you use CEKD in your academic work, please cite:
 
 # Acknowledgement
 Some of the codes are borrowed from [RTFNet](https://github.com/yuxiangsun/RTFNet), [PiDiNet](https://github.com/aja32/Pixel_Difference_Net) and [ESPNet](https://github.com/irfanICMLL/structure_knowledge_distillation)
-
-Contact: yx.sun@polyu.edu.hk
-
-Website: https://yuxiangsun.github.io/
